@@ -77,8 +77,6 @@ After installing threestudio, install 3DFuse extension by:
 ```sh
 git clone https://ku-cvlab.github.io/3DFuse-threestudio/
 
-# then, move 3DFuse folder into 'custom' folder in threestudio.
-
 cd 3DFuse/RASTER
 pip install -e .
 ```

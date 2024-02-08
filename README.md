@@ -33,7 +33,7 @@ We introduce 3DFuse, a novel framework that incorporates 3D awareness into pretr
 ### Install threestudio environment
 **This part is the same as original threestudio. Skip it if you already have installed the environment.**
 
-**❗️CAUTION: YOU DON'T NEED TO CLONE THREESTUDIO REPOSITORY!! THIS PART IS ONLY FOR ENVIRONMENT SETTING.❗️**
+❗️CAUTION: YOU DON'T NEED TO CLONE THREESTUDIO REPOSITORY!! THIS PART IS ONLY FOR ENVIRONMENT SETTING.❗️
 
 See [installation.md](docs/installation.md) for additional information, including installation via Docker.
 

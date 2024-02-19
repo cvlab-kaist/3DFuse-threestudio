@@ -1,0 +1,1 @@
+python launch.py --config custom/3DFuse-threestudio/configs/prolificdreamer-fuse.yaml  --train --gpu 0 system.prompt_processor.prompt="a DSLR photo of an ironman figure" system.image_dir="threestudio/custom/3DFuse-threestudio/optim_image/ironman.png" system.calibration_value=180

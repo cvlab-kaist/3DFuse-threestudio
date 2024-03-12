@@ -9,8 +9,8 @@ from threestudio.utils.misc import cleanup, get_device
 from threestudio.utils.ops import binary_cross_entropy, dot
 from threestudio.utils.typing import *
 
-from systems.pc_project import point_e, render_depth_from_cloud
-from systems.pytorch3d.renderer import PointsRasterizationSettings
+from .pc_project import point_e, render_depth_from_cloud
+from .pytorch3d.renderer import PointsRasterizationSettings
 
 
 @threestudio.register("fuse-prolificdreamer-system")

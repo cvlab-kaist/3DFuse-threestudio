@@ -11,10 +11,10 @@ from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
 import numpy as np
 import torch
 import torch.nn.functional as F
-from threestudio.systems.pytorch3d.common.datatypes import Device
-from threestudio.systems.pytorch3d.transforms import Rotate, Transform3d, Translate
+from ..common.datatypes import Device
+from ..transforms import Rotate, Transform3d, Translate
 
-from threestudio.systems.pytorch3d.renderer.utils import convert_to_tensors_and_broadcast, TensorProperties
+from ..renderer.utils import convert_to_tensors_and_broadcast, TensorProperties
 
 # matt_threestudio/threestudio/threestudio.systems
 

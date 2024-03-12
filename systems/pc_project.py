@@ -9,9 +9,9 @@ from tqdm import tqdm as orig_tqdm
 
 import raster
 
-from threestudio.systems.pytorch3d.structures import Pointclouds
-from threestudio.systems.pytorch3d.renderer.cameras import PerspectiveCameras
-from threestudio.systems.pytorch3d.renderer import (
+from .pytorch3d.structures import Pointclouds
+from .pytorch3d.renderer.cameras import PerspectiveCameras
+from .pytorch3d.renderer import (
     AlphaCompositor,
     look_at_view_transform,
 )

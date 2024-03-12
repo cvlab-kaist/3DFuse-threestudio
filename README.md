@@ -83,7 +83,7 @@ pip install -e .
 
 ## Quickstart
 ```sh
-python launch.py --config custom/configs/prolificdreamer-fuse.yaml  --train --gpu 0 system.prompt_processor.prompt="a product photo of a toy tank" system.image_dir="your_image_directory"
+python launch.py --config custom/3DFuse-threestudio/configs/prolificdreamer-fuse.yaml  --train --gpu 0 system.prompt_processor.prompt="a product photo of a toy tank" system.image_dir="YOUR_IMAGE"
 ```
 
 ## Acknowledgement
